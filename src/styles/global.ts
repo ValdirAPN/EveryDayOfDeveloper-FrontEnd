@@ -7,6 +7,15 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  :root {
+    --purple: #6C63FF;
+    --pink: #E961FF;
+    --white: #FFFFFF;
+    --gray: #9A9A9A;
+    --dark-gray: #3D3D3D;
+    --very-dark-gray: #2F3034;
+  }
+
   html {
     font-size: 62.5%
   }
