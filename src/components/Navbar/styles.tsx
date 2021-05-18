@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
 
 import { NavbarProps } from '.'
 
@@ -19,34 +20,77 @@ export const Container = styled.nav`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-width: min(1200px, 90vw);
+    position: relative;
+
+    min-width: min(1440px, 92vw);
     height: 100%;
-    padding: 0 4rem;
 
     ul {
-      height: 100%;
+      background: ${theme.colors.primary};
+      width: 92vw;
+      position: absolute;
+      top: 8rem;
+
+      display: none;
+
+      &.active {
+        display: unset;
+      }
 
       li {
-        display: inline-block;
-        height: 100%;
-
         a {
+          padding: 2rem;
           display: flex;
           align-items: center;
           justify-content: center;
-          height: 100%;
-
-          padding: 0 3rem;
 
           font-weight: bold;
 
           transition: ease 0.4s;
 
           &:hover {
-            color: ${theme.colors.primary};
+            background: ${theme.colors.secondary};
           }
         }
       }
     }
+
+    div {
+      display: flex;
+      align-items: center;
+
+      .menu {
+        cursor: pointer;
+        margin-left: 2rem;
+      }
+    }
+
+    ${media.greaterThan('medium')`
+      ul {
+        width: unset;
+        height: 100%;
+        background: none;
+        position: unset;
+        display: unset;
+
+        li {
+          display: inline-block;
+          height: 100%;
+
+          a {
+            height: 100%;
+            padding: 0 3rem;
+            &:hover {
+              color: ${theme.colors.primary};
+              background: none;
+            }
+          }
+        }
+      }
+
+      .menu {
+        display: none;
+      }
+    `}
   `}
 `
