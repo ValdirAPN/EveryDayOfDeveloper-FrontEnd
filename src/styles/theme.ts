@@ -23,9 +23,9 @@ export default {
   colors: {
     primary: '#E961FF',
     secondary: '#6C63FF',
-    mainBg: '#2F3034',
     lightGray: '#9A9A9A',
     gray: '#3D3D3D',
+    darkGray: '#2F3034',
     white: '#FFFFFF'
   },
   layers: {
