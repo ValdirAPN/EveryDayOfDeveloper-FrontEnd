@@ -22,7 +22,7 @@ export const Container = styled.nav`
     justify-content: space-between;
     position: relative;
 
-    min-width: min(1440px, 92vw);
+    width: min(1366px, 92vw);
     height: 100%;
 
     ul {
