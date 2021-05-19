@@ -27,6 +27,7 @@ export const Container = styled.div`
     h1 {
       font-size: 3.6rem;
       width: min(36rem, 90vw);
+      margin-bottom: 10rem;
       span {
         color: ${theme.colors.primary};
       }
