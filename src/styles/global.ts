@@ -43,6 +43,7 @@ const GlobalStyles = createGlobalStyle`
     body {
       font-family: ${theme.font.family};
       font-size: ${theme.font.sizes.medium};
+      overflow-x: hidden;
     }
 
     ul,
@@ -53,6 +54,12 @@ const GlobalStyles = createGlobalStyle`
     a {
       text-decoration: none;
       color: ${theme.colors.white};
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin-bottom: 1rem;
     }
   `}
 
