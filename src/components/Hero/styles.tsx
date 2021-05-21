@@ -22,12 +22,12 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
 
-    padding-top: 4rem;
+    padding: 4rem 0;
 
     h1 {
       font-size: 3.6rem;
       width: min(36rem, 90vw);
-      margin-bottom: 10rem;
+      margin-bottom: 8rem;
       span {
         color: ${theme.colors.primary};
       }
