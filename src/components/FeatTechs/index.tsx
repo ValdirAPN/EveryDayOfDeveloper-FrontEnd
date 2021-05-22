@@ -14,7 +14,7 @@ const FeatTechs = () => {
         </div>
         <div>
           <TechCard
-            color={'secondary'}
+            color={'primary'}
             title={'JavaScript'}
             description={
               'Lorem ipsum dolor sit amet, consecteturadipiscing elit. Integer risus libero, luctus a erat vitae, sodales fermentum.'
