@@ -29,6 +29,8 @@
     "@babel/core": "^7.14.2",
     "@babel/preset-env": "^7.14.2",
     "@babel/preset-typescript": "^7.13.0",
+    "@mdi/js": "^5.9.55",
+    "@mdi/react": "^1.5.0",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@types/jest": "^26.0.23",
