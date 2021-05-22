@@ -4,7 +4,7 @@ import media from 'styled-media-query'
 export const Wrapper = styled.section`
   ${({ theme }) => css`
     width: 100vw;
-    background-color: ${theme.colors.primary};
+    background-color: ${theme.colors.gray};
   `}
 `
 

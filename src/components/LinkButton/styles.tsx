@@ -15,5 +15,12 @@ export const Container = styled.button<ButtonProps>`
     font-size: ${theme.font.sizes.medium};
 
     margin-top: 2rem;
+
+    transition: ease 0.2s;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.02);
+    }
   `}
 `

@@ -11,8 +11,7 @@ export const Button = styled.a`
     transition: ease-in-out 0.4s;
 
     &:hover {
-      background-color: ${theme.colors.white};
-      color: ${theme.colors.darkGray};
+      background-color: ${theme.colors.secondary};
     }
   `}
 `

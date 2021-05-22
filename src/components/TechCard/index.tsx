@@ -1,13 +1,13 @@
 import * as S from './styles'
 
 export type TechCardProps = {
-  color?: 'darkGray' | 'secondary'
+  color?: 'primary' | 'secondary'
   title?: string
   description?: string
 }
 
 const TechCard = ({
-  color = 'darkGray',
+  color = 'secondary',
   title = 'Title',
   description = 'Description'
 }: TechCardProps) => {
